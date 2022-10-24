@@ -983,7 +983,7 @@
     (pin "1" (uuid 48c90ad2-9aa7-42a5-88bd-95dc20cd5852))
     (pin "2" (uuid b2cfc0ef-e42f-40e4-9c56-191a936afaab))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "J1") (unit 1) (value "AC_input") (footprint "Custom_Terminalblock:Ninigi AC141R-02P-2.54")
         )
@@ -1011,7 +1011,7 @@
     (pin "3" (uuid a3d2312b-85ac-4918-aec8-a2fd1c655524))
     (pin "4" (uuid 2fff1325-d1fd-4ffc-a530-e6f79045deb3))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "U1") (unit 1) (value "~") (footprint "Custom_Converter:DCDC_Mini560")
         )
@@ -1025,7 +1025,7 @@
     (property "Reference" "J4" (at 205.74 46.355 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "uC" (at 205.74 48.895 0)
+    (property "Value" "Control_panel" (at 205.74 48.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Custom_Connector:RJ45_Keystone_942" (at 196.85 46.355 90)
@@ -1043,9 +1043,9 @@
     (pin "7" (uuid f306ebca-1d0e-4ac7-9089-66c58bf34c1a))
     (pin "8" (uuid 9067fa7e-5356-4063-84eb-7cdffdea3260))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
-          (reference "J4") (unit 1) (value "uC") (footprint "Custom_Connector:RJ45_Keystone_942")
+          (reference "J4") (unit 1) (value "Control_panel") (footprint "Custom_Connector:RJ45_Keystone_942")
         )
       )
     )
@@ -1071,7 +1071,7 @@
     (pin "3" (uuid 8b7ba9dc-ab7e-4d9c-8cdb-bdcb17fc8c38))
     (pin "4" (uuid 456f1357-cb34-417b-8941-7ed8ed7ce4fe))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "J2") (unit 1) (value "Relay_Control") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
         )
@@ -1098,7 +1098,7 @@
     (pin "2" (uuid 0f047bff-5407-43f2-88bf-fdaaae5db6b5))
     (pin "3" (uuid bc2f2542-5ec7-45aa-8b84-552e8b0956db))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "J3") (unit 1) (value "Thermometer") (footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
         )
@@ -1126,7 +1126,7 @@
     (pin "3" (uuid 59fb9779-0521-4396-b19d-3def5fc8d190))
     (pin "4" (uuid 160968bb-2d1b-4cd0-99b3-0293404671aa))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "PS1") (unit 1) (value "HLK-PM01") (footprint "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx")
         )
@@ -1152,7 +1152,7 @@
     (pin "1" (uuid a8dc1093-7bd6-4b77-b9aa-a9c3aa0786c2))
     (pin "2" (uuid 65ed8b7e-124c-4628-bc7f-eb61f9c21bc7))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
         )
@@ -1214,7 +1214,7 @@
     (pin "8" (uuid 3c945605-b3af-4993-a8ec-0c081165e2b7))
     (pin "9" (uuid e70d065a-4e59-4104-911b-267f2cdb498e))
     (instances
-      (project "Boiler_termostat"
+      (project "boiler_thermostat"
         (path "/7f07eb40-58fa-446e-a670-e70b13e07761"
           (reference "U2") (unit 1) (value "ESP32-WROVER-E") (footprint "Custom_RF_Module:ESP32-WROVER-IE")
         )
